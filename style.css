@@ -1,0 +1,151 @@
+/* ------------------------
+ common-styles or utilites
+--------------------------- */
+body{
+        font-family: 'Be Vietnam Pro', sans-serif;
+}
+.container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px;
+}
+.main-part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+span{
+        color: cadetblue;
+}
+h2{
+        font-family: 'Poppins', sans-serif;
+}
+h1{
+        font-size: 40px;
+}
+nav a{
+        text-decoration: none;
+        margin: 10px;
+}
+nav i{
+        margin: 10px;
+}
+a{
+        text-decoration: none;
+        background-color: rgb(202, 34, 90);
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 20px;
+}
+/*----------------------- 
+image and journey info
+ ------------------------*/
+.journey{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.journey-right{
+        width: 100%;
+
+}
+
+.products-symbol, img{
+        display: inline;margin-right: 30px;
+}
+.img-part{
+        margin: 60px;
+        width: 900px;
+        border: 1px solid lightgray ;
+        border-radius: 26px;
+        padding-left: 50px;
+        padding-top: 5px;
+}
+.img-part img{
+        display: inline;
+}
+h3{
+        text-align: center;
+        font-weight: 800;
+}
+h4{
+        font-size: 22px;
+}
+/* -------------------------
+Nine photos details and views
+---------------------------- */
+.all-photo{
+        padding-left: 85px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 30px;
+        
+        
+
+}
+.photo{
+        width: 325px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        box-shadow: 5px 10px 22px 12px  #e4dede;
+        
+}
+.photo-details{
+        
+        padding-top:15px;
+        padding-left:13px;
+        padding-right: 15px;
+        padding-bottom:1px ;
+}
+.instument-info{
+        line-height: 200%;
+}
+/* ---------------------------
+     images internal info
+----------------------------- */
+.rating{
+        display: flex;
+        align-items: center;
+}
+.reviews{
+        font-size: 14px;
+        margin: 0 10px;
+}
+.fonts{
+        margin-top: 40px;
+}
+.fa-star{
+        font-size: 12px;
+}
+.fa-star.filled{
+        color: goldenrod;
+}
+.fa-star-half-alt.empty{
+        color: goldenrod;
+        font-size: 12px;       
+}
+.fa-arrow-arrow{
+        font-size: 200px;
+}
+.products-feature{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+}
+.product-image{
+        padding-left: 80px;
+}
+.footer-style{
+        padding-top: 12px;
+        height: 180px;
+        background-color: black;
+        color: white;
+        text-align: center;
+}
+.social-icon{
+      font-size: 20px;
+}
+/* --------------------- 
+    CSS styles end here
+------------------------ */
